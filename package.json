@@ -1,0 +1,22 @@
+{
+  "name": "motion-vue-practice",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "motion-v": "^0.13.1",
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.2.2",
+    "unplugin-vue-components": "^28.4.1",
+    "vite": "^5.1.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
