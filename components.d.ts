@@ -8,6 +8,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    copy: typeof import('./src/components/Before/Example1 copy.vue')['default']
+    Example1: typeof import('./src/components/Before/Example1.vue')['default']
+    Example2: typeof import('./src/components/After/Example2.vue')['default']
+    Example3: typeof import('./src/components/Before/Example3.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
   }
 }
